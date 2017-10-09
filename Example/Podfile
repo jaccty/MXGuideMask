@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MXGuideMask_Example' do
+  pod 'MXGuideMask', :path => '../'
+
+  target 'MXGuideMask_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
