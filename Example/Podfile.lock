@@ -1,5 +1,5 @@
 PODS:
-  - MXGuideMask (0.1.0)
+  - MXGuideMask (0.1.1)
 
 DEPENDENCIES:
   - MXGuideMask (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MXGuideMask: 4449a46c4d726311602a9a5c169b86ed75d3aa12
+  MXGuideMask: 6047703ba3d3b92b04af00637af84ef142135d4f
 
 PODFILE CHECKSUM: 899103eb36fd5a85b877289c73077def0046138c
 
