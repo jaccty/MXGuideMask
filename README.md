@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MXGuideMask.svg?style=flat)](http://cocoapods.org/pods/MXGuideMask)
 [![License](https://img.shields.io/cocoapods/l/MXGuideMask.svg?style=flat)](http://cocoapods.org/pods/MXGuideMask)
 [![Platform](https://img.shields.io/cocoapods/p/MXGuideMask.svg?style=flat)](http://cocoapods.org/pods/MXGuideMask)
-
+![image](https://github.com/jaccty/MXGuideMask/tree/master/Gif)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
