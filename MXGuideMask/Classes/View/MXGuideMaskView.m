@@ -62,7 +62,7 @@ typedef NS_ENUM(NSInteger,MXGuideMaskItemRegion) {
     
     ///设置默认值
     NSBundle * currentBundle = [NSBundle bundleForClass:[self class]];
-    NSString * path = [currentBundle pathForResource:@"guide_arrow@3x.png" ofType:nil];
+    NSString * path = [currentBundle pathForResource:@"guide_arrow@3x.png" ofType:nil inDirectory:@"MXGuideMask.bundle"];
     self.arrowImage = [UIImage imageWithContentsOfFile:path];
 //    self.arrowImage = [UIImage imageNamed:@"guide_arrow"];
     self.maskBackgroundColor = [UIColor blackColor];
