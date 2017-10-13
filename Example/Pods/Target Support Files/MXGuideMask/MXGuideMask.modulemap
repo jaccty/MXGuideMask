@@ -1,0 +1,6 @@
+framework module MXGuideMask {
+  umbrella header "MXGuideMask-umbrella.h"
+
+  export *
+  module * { export * }
+}

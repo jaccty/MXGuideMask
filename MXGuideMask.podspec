@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/848941531@qq.com/MXGuideMask'
+  s.homepage         = 'https://github.com/jaccty/MXGuideMask'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '848941531@qq.com' => '848941531@qq.com' }
-  s.source           = { :git => 'https://github.com/848941531@qq.com/MXGuideMask.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jaccty/MXGuideMask.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MXGuideMask/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MXGuideMask' => ['MXGuideMask/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MXGuideMask' => ['MXGuideMask/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

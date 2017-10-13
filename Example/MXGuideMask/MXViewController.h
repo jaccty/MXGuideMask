@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
-@interface MXViewController : UIViewController
+#import "MXGuideMaskViewController.h"
+@interface MXViewController : MXGuideMaskViewController
 
 @end

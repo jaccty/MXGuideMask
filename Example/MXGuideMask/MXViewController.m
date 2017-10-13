@@ -9,6 +9,10 @@
 #import "MXViewController.h"
 
 @interface MXViewController ()
+///自定义顺序将UIView添加进数组
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *collectionViews;
+
+- (IBAction)show;
 
 @end
 
@@ -17,13 +21,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self maskConfigWithItemViews:self.collectionViews andDescArr:@[@"1111111111",@"222222222",@"3333333333",@"444444444",@"555555555"]];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)show {
+    [self showMask];
 }
 
 @end
